@@ -14,9 +14,9 @@ type OutgoingPortalSpec struct {
 	// Important: Run "operator-sdk generate k8s" to regenerate code after modifying this file
 	// Add custom validation using kubebuilder tags: https://book.kubebuilder.io/beyond_basics/generating_crd.html
 
-	Service string `json:"service,omitempty"`
-	Port    int32  `json:"port,omitempty"`
-	Gateway string `json:"gateway,omitempty"`
+	ServiceFDQN string `json:"serviceFDQN,omitempty"`
+	ServicePort int32  `json:"servicePort,omitempty"`
+	Gateway     string `json:"gateway,omitempty"`
 }
 
 // OutgoingPortalStatus defines the observed state of OutgoingPortal

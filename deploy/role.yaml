@@ -50,5 +50,6 @@ rules:
   - tesseract.pubg.io
   resources:
   - '*'
+  - incomingportals
   verbs:
   - '*'

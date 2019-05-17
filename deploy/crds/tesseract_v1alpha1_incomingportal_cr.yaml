@@ -1,0 +1,7 @@
+apiVersion: tesseract.pubg.io/v1alpha1
+kind: IncomingPortal
+metadata:
+  name: example-incomingportal
+spec:
+  # Add fields here
+  size: 3
