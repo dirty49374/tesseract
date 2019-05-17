@@ -1,0 +1,7 @@
+apiVersion: tesseract.pubg.io/v1alpha1
+kind: OutgoingPortal
+metadata:
+  name: example-outgoingportal
+spec:
+  # Add fields here
+  size: 3
